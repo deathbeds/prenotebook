@@ -1,2 +1,2 @@
 import prenotebook, sys
-prenotebook.main()
+prenotebook.prenotebook.main()
