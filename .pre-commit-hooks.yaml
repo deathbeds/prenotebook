@@ -1,0 +1,8 @@
+- id: strip-outputs
+  entry: python -m prenotebook strip-outputs
+- id: strip-execution-count
+  entry: python -m prenotebook strip-execution-count
+- id: blacken
+  entry: python -m prenotebook blacken
+- id: isort
+  entry: python -m prenotebook blacken
