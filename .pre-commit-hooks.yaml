@@ -1,12 +1,16 @@
 - id: strip-outputs
   name: Strip outputs
   entry: python -m prenotebook strip-outputs
+  language: python
 - id: strip-execution-count
   name: Strip exection count  
   entry: python -m prenotebook strip-execution-count
+  language: python
 - id: blacken
   name: Blacken code cells
   entry: python -m prenotebook blacken
+  language: python
 - id: isort
   name: Sort imports
   entry: python -m prenotebook blacken
+  language: python
