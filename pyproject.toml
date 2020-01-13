@@ -1,3 +1,9 @@
 [project]
 name = "prenotebook"
 version = "0.1.0"
+
+[dependencies]
+click
+importnb
+black
+isort
