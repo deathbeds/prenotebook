@@ -1,5 +1,5 @@
 - repo: https://github.com/deathbeds/prenotebook
-  rev: 2643c9d
+  rev: edb337b
   hooks:
   - id: strip-outputs
   - id: strip-execution-count

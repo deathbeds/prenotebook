@@ -1,8 +1,12 @@
 - id: strip-outputs
+  name: Strip outputs
   entry: python -m prenotebook strip-outputs
 - id: strip-execution-count
+  name: Strip exection count  
   entry: python -m prenotebook strip-execution-count
 - id: blacken
+  name: Blacken code cells
   entry: python -m prenotebook blacken
 - id: isort
+  name: Sort imports
   entry: python -m prenotebook blacken
