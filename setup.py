@@ -11,7 +11,7 @@ setup_args = dict(
     version="0.1.0",
     author="deathbeds",
     packages=setuptools.find_packages(),
-    install_requires="importnb black isort nbconvert pydantic IPython ujson nbformat".split(),
+    install_requires=Path('requirements.txt').read_text().split(),
     author_email="tony.fast@gmail.com",
     description="Import Jupyter (ne IPython) notebooks into tests and scripts.",
 )
