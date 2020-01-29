@@ -21,12 +21,9 @@ Add the `prenotebook` pre
 
 ```
 
-    Overwriting .pre-commit-config.yaml
-
-
 
 ```python
-    !jupyter nbconvert --to markdown readme.ipynb
+    !jupyter nbconvert --to markdown --TemplateExporter.exclude_output=True readme.ipynb
 ```
 
 
