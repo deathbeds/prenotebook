@@ -1,7 +1,5 @@
-- repo: https://github.com/deathbeds/prenotebook
-  rev: edb337b
+repos:
+- repo: https://github.com/ambv/black
+  rev: stable
   hooks:
-  - id: strip-outputs
-  - id: strip-execution-count
-  - id: blacken
-  - id: isort
+  - id: black

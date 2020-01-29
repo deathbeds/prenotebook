@@ -1,4 +1,6 @@
-- id: prenotebook
-  name: Pre notebook commits
-  entry: python -m prenotebook
-  language: python
+-   id: prenotebook
+    name: Prepare a notebook for committing.
+    description: 
+    entry: python -m prenotebook
+    language: python
+    files: ".+\\.ipynb"
