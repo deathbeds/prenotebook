@@ -1,6 +1,6 @@
 -   id: prenotebook
     name: Prepare a notebook for committing.
-    description: 
+    description: Clean up notebooks.
     entry: python -m prenotebook
     language: python
     files: ".+\\.ipynb"
