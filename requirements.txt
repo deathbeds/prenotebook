@@ -6,3 +6,4 @@ IPython
 ujson
 nbformat
 click
+pre-commit

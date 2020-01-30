@@ -13,7 +13,7 @@ setup_args = dict(
     packages=setuptools.find_packages(),
     install_requires=Path("requirements.txt").read_text().split(),
     author_email="tony.fast@gmail.com",
-    description="Import Jupyter (ne IPython) notebooks into tests and scripts.",
+    description="Pre commit hooks for jupyter notebooks.",
     entry_points={"console_scripts": ["prenotebook=prenotebook:main"],},
 )
 
