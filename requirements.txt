@@ -5,3 +5,4 @@ ujson
 nbformat
 click
 pre-commit
+dataclasses
