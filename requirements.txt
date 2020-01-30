@@ -1,8 +1,6 @@
 importnb
 black
 isort
-nbconvert
-IPython
 ujson
 nbformat
 click
