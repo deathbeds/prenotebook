@@ -15,6 +15,7 @@ setup_args = dict(
     author_email="tony.fast@gmail.com",
     description="Pre commit hooks for jupyter notebooks.",
     entry_points={"console_scripts": ["prenotebook=prenotebook:main"],},
+    include_package_data=True,
 )
 
 if __name__ == "__main__":
