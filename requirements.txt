@@ -2,7 +2,6 @@ importnb
 black
 isort
 nbconvert
-pydantic
 IPython
 ujson
 nbformat
