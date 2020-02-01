@@ -1,1 +1,1 @@
-recursive-include prenotebook *.ipynb
+recursive-include prenotebook *.ipynb *.js
