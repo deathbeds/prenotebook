@@ -4,6 +4,6 @@ repos:
   hooks:
   - id: black
 - repo: https://github.com/deathbeds/prenotebook
-  rev: c72610c35d24965e0861981f4ca1925557356276
+  rev: b6871f59b4f437a2adb406e0bcb3c24b02b61d97
   hooks:
   - id: prenotebook
